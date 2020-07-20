@@ -1,4 +1,4 @@
-# sliding_up_panel
+# sliding_up_panel (forked)
 [![pub package](https://img.shields.io/pub/v/sliding_up_panel.svg)](https://pub.dartlang.org/packages/sliding_up_panel)
 [![GitHub Stars](https://img.shields.io/github/stars/akshathjain/sliding_up_panel.svg?logo=github)](https://github.com/akshathjain/sliding_up_panel)
 [![Platform](https://img.shields.io/badge/platform-android%20|%20ios-green.svg)](https://img.shields.io/badge/platform-Android%20%7C%20iOS-green.svg)
@@ -12,6 +12,10 @@ A draggable Flutter widget that makes implementing a SlidingUpPanel much easier!
 </p>
 
 <br>
+
+## Fork difference:
+
+Introduces the onGestureSlide on PanelController. This allows to control the panel scroll.
 
 ## Installing
 Add the following to your `pubspec.yaml` file:
