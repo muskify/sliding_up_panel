@@ -635,6 +635,11 @@ class PanelController{
     assert(isAttached, "PanelController must be attached to a SlidingUpPanel");
     return _panelState._hide();
   }
+  
+  /// Gives a dy of scroll to the panel
+  Future<void> onGestureSlide(double dy){
+    _panelState._onGestureSlide(dy);
+  }
 
   /// Shows the sliding panel in its collapsed state
   /// (i.e. "un-hide" the sliding panel)
